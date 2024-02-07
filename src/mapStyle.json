@@ -1,0 +1,54 @@
+{
+    "version": 8,
+    "name": "rri_blank",
+    "metadata": {
+        "mapbox:autocomposite": true,
+        "mapbox:type": "template",
+        "mapbox:sdk-support": {
+            "js": "3.0.0",
+            "android": "11.0.0",
+            "ios": "11.0.0"
+        },
+        "mapbox:thumb": "data:image/webp;base64,UklGRuIDAABXRUJQVlA4TNUDAAAvO8AOENXQEQBJkeTc0+89+oQ+IFcW4/F0RWTPjeSV0dXdI5dDDL1iZgrRcQqWIUICAABk26y2Ztu2bdu2bdu2bdu2rdu2jUyAXhodpMLSCQdPp0SD4kSnkCumxYyOxSVcdnd3i/OGoYKlo+c4yFmIFa6jigUpeNe0qrAK2V1rhNJVnoqR1BFOnkKNYYUTbGMLRniXr3iPt3CGB1xHPSs40auumHiDAC5Yg3jEUkZSUEQU2zAbQyU5YlgcFxjkLI75kP8zASR/H/M1d/D0kzj9nL1s/aqkUq/nQwOTqE/Hz/knh+iBOiT5jpusrIQPoV3BkhQUSKgQ9uEiIvjydQJDOyfGTniEF1M4FkbX+I50BfuJpKu44o7vA/7lvXiS/M35n4NSTUhENpb59XUAttN2pm2nbedn0NJKvkL1AOxB+AV0xavJ/QH/3b6Nn2imw4cPIVorASbiMTs/L88O4VsiDpnM37adTtvpz0+L8y+azupBZkaB2pcw0in2/+2D7/2E+rjmF8fgDdvZjnq2FiIyO4JmVgx7+DPz9bcwvcKfIzsPbkgVFEb4m78xDdbFPYx/BOBM225E3XV6BpNLs8HOGePWNb4L6PCscI1TGnedzsw/eCMx8vlbr3uYmai9D7Joixsm7vy/v9PpF5WjsTMPM5Od+Rafga2o8lPGd24DMO+ylFIVrMlLSyHPY44xqEKvyXRKF9CNCrlxM53pdGKER4lCKXLid5hdwuCRe0tBW9veieXrdFdxG8a7DVUEe2ynnfk6R4vTvnTIKe3SgJdoFCyDR6qwrWjD0Dm+xm98BvaGOmZ8BdDO+IVhSWKGjtYiK/k17UGnAF9JqiBpmaUK5TsnPjKkIcqEy4bx44H5NxQHFSnRAQlXcWwHe0812OauwsVOx5NeuSGJ+nY6GajRn7HS+3/NoF/fI1eFHEla5kgRbWdm8nDD0HoKhQeZxmNNZCjUD3vvDRN1uXOP+iBp/GjCs6yvN+JPEWsp6m3zpZax5S/q9CqUuUD5Drygfon6p5GHEJrKSf5zZsaoRmM8be/RcUxShYQJ70EcMargoxMtjyGlIx1NqShcpDORO8Y92wyDJzOWKd/xf/IBnpyowk8E9grWcJkgztuJkQ3T2E6af8iFhKJ8P3RC1OYw2lQhQSm1hkuLt9J8rYkrAfz3V5rOmoaDQlut0K+Tb6g/RVHP1rszeivOhhft+Dx5KKlitxBK5m3q6XlfMfUVoSgpPK7QzoM3vq2FtMUKmqPCssKfI9MvEFeFzkIc1iq6EKUbN2ZI+vvGJGnRN9rmT2pW2KwXVAMA",
+        "mapbox:uiParadigm": "layers",
+        "mapbox:groups": {}
+    },
+    "center": [22.711297896284385, 35.3071729447637],
+    "zoom": 1.2714630074463837,
+    "bearing": 0,
+    "pitch": 0,
+    "sources": {
+        "composite": {
+            "url": "mapbox://mapbox.country-boundaries-v1",
+            "type": "vector"
+        }
+    },
+    "sprite": "mapbox://sprites/mbaker-rathana/clr5tzh4z00kp01ob67hs7m6y/ck2u8j60r58fu0sgyxrigm3cu",
+    "glyphs": "mapbox://fonts/mapbox/{fontstack}/{range}.pbf",
+    "projection": {"name": "albers", "parallels": [-30, 30]},
+    "layers": [
+        {
+            "id": "country-boundaries",
+            "type": "fill",
+            "source": "composite",
+            "source-layer": "country_boundaries",
+            "layout": {},
+            "paint": {
+                "fill-color": [
+                    "match",
+                    ["get", "name_en"],
+                    ["Antarctica"],
+                    "hsla(0, 0%, 0%, 0)",
+                    "#f1f1f1"
+                ]
+            }
+        }
+    ],
+    "created": "2024-01-09T04:07:44.003Z",
+    "modified": "2024-01-29T23:46:03.018Z",
+    "id": "clr5tzh4z00kp01ob67hs7m6y",
+    "owner": "mbaker-rathana",
+    "visibility": "public",
+    "protected": false,
+    "draft": false
+}

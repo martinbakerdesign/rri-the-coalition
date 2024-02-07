@@ -1,0 +1,28 @@
+#map__trigger,
+#map__top-trigger,
+#map__bottom-trigger {
+    @apply absolute pointer-events-none w-full inset-x-0 select-none;
+    /* @apply opacity-25 z-20; */
+}
+#map__top-trigger {
+    top: calc(5.25rem + 100svh);
+    bottom: 0;
+    /* background-color: red; */
+}
+#map__bottom-trigger {
+    top: calc(100% + 20svh);
+    height: calc(100svh - var(--touch-map-h) + 20svh);
+    /* background-color: blue; */
+}
+#map.stuck {
+    @apply fixed bg-white -top-42 h-touch-map z-20 lg:static lg:h-unset;
+}
+
+#map__content {
+    padding-top: var(--touch-map-h);
+}
+@media (min-width: 1024px) {
+    #map__content {
+        padding-top: 0;
+    }
+}

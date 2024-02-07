@@ -1,0 +1,21 @@
+.select[data-state=closed] [role=listbox] {
+    display: none;
+}
+.select[data-state=open] [role=listbox] {
+    display: block;
+}
+
+.select [role=option] {
+    @apply grid grid-cols-[1fr_auto] overflow-hidden whitespace-nowrap gap-x-10 items-center;
+}
+.select [role=option] .select-option__label {
+    @apply w-full overflow-hidden text-ellipsis;
+}
+.select [role=option] .select-option__type {
+    width: 2.75rem;
+    font-weight: 400;
+    font-size: .75rem;
+}
+.select [role=listbox] {
+    overscroll-behaviour: contain;
+}

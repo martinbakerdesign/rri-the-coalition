@@ -1,0 +1,108 @@
+.filter__toggle {
+    @apply rounded-s hover:bg-green-50 grid gap-x-4 gap-y-2 grid-cols-[auto_1fr_auto] items-center w-full text-left p-4;
+}
+.filter__toggle__count {
+    @apply col-start-1 col-end-2 row-start-1 row-end-2 rounded-pill bg-green-500 text-white px-5 text-filter-count;
+}
+.filter__toggle__label {
+    @apply col-start-2 col-end-3 row-start-1 row-end-2 w-full text-filter-label;
+}
+.filter__toggle__preview {
+    @apply col-start-2 col-end-3 row-start-2 row-end-3 w-full text-filter-preview text-neutral-700;
+}
+.filter__toggle__icon {
+    @apply col-start-3 col-end-4 row-start-1 row-end-2 m-2;
+}
+.filter__options,
+.filter__options[hidden] {
+    @apply hidden;
+}
+.filter__options {
+    @apply px-4 gap-y-2 justify-start;
+}
+
+.filter:not(:first-child) {
+    @apply mt-6;
+}
+
+.filter label {
+    @apply cursor-pointer flex items-center;
+}
+.filter input[type="checkbox"] {
+    @apply mr-6 flex-none;
+}
+.filter label:hover input[type="checkbox"] {
+    @apply border-green-800;
+}
+.filter label:hover input[type="checkbox"]:before {
+    @apply bg-green-800;
+}
+
+.filter[data-state="open"] .filter__toggle {
+    @apply mb-4;
+}
+.filter[data-state="open"] .filter__toggle__icon {
+    @apply rotate-180;
+}
+.filter[data-state="open"] .filter__toggle__preview {
+    @apply hidden;
+}
+
+.filter[data-state="open"] .filter__options {
+    @apply flex flex-col;
+}
+
+.directory__result-group {
+    @apply grid grid-cols-[auto_1fr] gap-x-10 items-start;
+}
+.directory__result-group:not(:first-child) {
+    @apply mt-10;
+}
+.directory__result-group__letter {
+    @apply text-black my-2 w-7 text-center;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.25rem;
+}
+.directory__result-group__items {
+    @apply w-full flex flex-col gap-y-2;
+}
+.directory__result-group__items {
+    @apply w-full flex gap-x-10 overflow-hidden;
+}
+.directory__result {
+    @apply w-full gap-x-16 overflow-hidden grid grid-cols-[1fr_3.25rem] items-center relative px-4 py-2 rounded-s hover:bg-green-50 hover:text-green-800;
+    line-height: 1.25rem;
+}
+.directory__result .anchor {
+    @apply w-full block col-start-1 col-end-3 row-start-1 row-end-2;
+    height: 1px;
+    margin-bottom: -1px;
+    font-size: 0;
+}
+.directory__result .anchor:after {
+    content: '';
+    @apply absolute w-full h-full inset-0;
+}
+.directory__result__name,
+.directory__result__type {
+    @apply row-start-2 row-end-3;
+}
+.directory__result__name {
+    @apply w-full overflow-hidden overflow-ellipsis whitespace-nowrap text-body inline-block col-start-1 col-end-2;
+    line-height: inherit;
+}
+.directory__result__type {
+    @apply text-green-600 inline-block w-full col-start-2 col-end-3;
+    font-weight: 400;
+    font-size: .75rem;
+}
+
+.directory__result:hover .directory__result__type {
+    @apply text-green-600;
+}
+
+.directory__result[hidden],
+.directory__result-group[hidden] {
+    @apply hidden;
+}

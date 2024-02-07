@@ -1,0 +1,85 @@
+:root {
+    /* Colour */
+    --white: 0,0%,100%;
+    --black: 0,0%,0%;
+
+    --neutral-50: 0,0%,94.5%;
+    --neutral-100: 0,0%,89%;
+    --neutral-200: 0,0%,78%;
+    --neutral-300: 0,0%,67.1%;
+    --neutral-400: 0,0%,56.1%;
+    --neutral-500: 0,0%,45.1%;
+    --neutral-600: 0,0%,36.1%;
+    --neutral-700: 0,0%,27.1%;
+    --neutral-800: 0,0%,18%;
+    --neutral-900: 0,0%,9%;
+
+    --green-50: 114,35.7%,94.5%;
+    --green-100: 117,32.1%,89%;
+    --green-200: 118,32.1%,78%;
+    --green-300: 118,32.9%,67.3%;
+    --green-400: 118,32.7%,56.3%;
+    --green-500: 118,39.4%,45.3%;
+    --green-600: 118,39.5%,36.3%;
+    --green-700: 118,39.6%,27.3%;
+    --green-800: 118,39.1%,18%;
+    --green-900: 117,39.1%,9%;
+
+    --apricot-50: 13,46.7%,94.1%;
+    --apricot-100: 11,48.3%,88.6%;
+    --apricot-200: 11,48.7%,77.1%;
+    --apricot-300: 11,47.7%,65.5%;
+    --apricot-400: 11,48.1%,53.9%;
+    --apricot-500: 11,65%,42.5%;
+    --apricot-600: 11,65.3%,33.9%;
+    --apricot-700: 11,64.6%,25.5%;
+    --apricot-800: 11,65.5%,17.1%;
+    --apricot-900: 11,63.6%,8.6%;
+
+    --smoky-blue-50: 195,11.8%,93.3%;
+    --smoky-blue-100: 202,11.8%,86.7%;
+    --smoky-blue-200: 202,11.8%,73.3%;
+    --smoky-blue-300: 201,11.2%,59.8%;
+    --smoky-blue-400: 201,13.1%,46.5%;
+    --smoky-blue-500: 202,23.1%,33.1%;
+    --smoky-blue-600: 201,23%,26.5%;
+    --smoky-blue-700: 201,22.8%,19.8%;
+    --smoky-blue-800: 203,23.5%,13.3%;
+    --smoky-blue-900: 203,23.5%,6.7%;
+
+    --text-default: var(--neutral-900);
+    --text-subtle: var(--neutral-300);
+
+    --w-content: calc(100% - 2.5rem);
+    --w-text: var(--w-content);
+    
+    --touch-map-h: max(18.25rem,45svh);
+    --tabpanel-h: unset;
+    --fellow-thumbnail: 13.125rem;
+    
+    /* Breakpoints */
+    --break-sm: 640px;
+    --break-md: 768px;
+    --break-lg: 1024px;
+    --break-xl: 1280px;
+    --break-2xl: 1536px;
+    
+    @media (min-width: 1024px) {
+        --w-text: 32rem;
+        --fellow-thumbnail: 22.625rem;
+        --tabpanel-h: calc(100svh + 8.5rem - 18.25rem);
+    }
+    @media (min-width: 1280px) {
+        --w-content: max(calc(100vw - 6.5rem), 76rem);
+    }
+    @media (min-width: 1536px) {
+        --w-text: 40rem;
+        --w-content: 89.5rem;
+    }
+    
+    /* Font Sizes */
+    /* Spacing */
+    @media (min-width: 1920px) {
+        --w-content: 107rem;
+    }
+}

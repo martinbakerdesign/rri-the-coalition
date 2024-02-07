@@ -1,0 +1,51 @@
+.partners__list {
+    /* @apply ; */
+    transition: opacity 400ms ease-out;
+}
+.partners__list[hidden] {
+    @apply opacity-0 pointer-events-none;
+    transition: opacity 400ms ease-out;
+}
+
+.partner-card {
+    @apply flex-none relative rounded-m bg-green-50 p-6 w-full grid place-items-start grid-rows-[auto_1fr] hover:bg-green-100 lg:h-full;
+    max-width: min(calc(100vw * 0.6), 13.5rem);
+}
+.partner-card__logo {
+    @apply w-partner-card-logo aspect-square;
+}
+.partner-card__name {
+    @apply text-green-700 text-h4 w-full mt-16;
+}
+
+#partners .tab__slide,
+#partners__nav {
+    @apply overflow-visible;
+}
+#partners__nav {
+    /* @apply col-start-2 col-end-6; */
+    @apply pr-0;
+}
+
+#mapping-platform
+/* , #partners */
+{
+    min-height: 100vh;
+}
+
+#partners .tab__slide {
+    @apply lg:col-start-1 lg:col-end-6 lg:grid lg:grid-cols-5 lg:gap-x-26;
+    /* @apply pointer-events-auto; */
+}
+#partners .tab__content {
+    @apply lg:col-start-1 lg:col-end-6;
+}
+
+#partners__map__wrapper {
+    @apply block opacity-100;
+    transition: opacity ease-out 400ms;
+}
+#partners__map__wrapper[hidden] {
+    @apply opacity-0 pointer-events-none;
+    transition: opacity ease-in 200ms;
+}

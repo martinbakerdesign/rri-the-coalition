@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" style="display:none" id="svg-symbols">
+      <symbol id="symbol-chevron-down-14" width="14" height="14" viewBox="0 0 14 14">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M0.153392 5.58326L1.24661 4.21674L7 8.81945L12.7534 4.21674L13.8466 5.58326L7 11.0605L0.153392 5.58326Z" />
+      </symbol>
+      <symbol id="symbol-chevron-down-20" width="20" height="20" viewBox="0 0 20 20">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M0.219131 7.97608L1.78087 6.02391L10 12.5992L18.2191 6.02391L19.7809 7.97608L10 15.8008L0.219131 7.97608Z" />
+      </symbol>
+      <symbol id="symbol-chevron-left-14" width="14" height="14" viewBox="0 0 14 14">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M8.41674 0.153393L9.78326 1.24661L5.18055 7L9.78326 12.7534L8.41674 13.8466L2.93945 7L8.41674 0.153393Z" />
+      </symbol>
+      <symbol id="symbol-chevron-left-20" width="20" height="20" viewBox="0 0 20 20">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M12.0239 0.219131L13.9761 1.78087L7.40078 10L13.9761 18.2191L12.0239 19.7809L4.19922 10L12.0239 0.219131Z" />
+      </symbol>
+      <symbol id="symbol-chevron-right-14" width="14" height="14" viewBox="0 0 14 14">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M5.58326 0.153392L4.21674 1.24661L8.81945 7L4.21674 12.7534L5.58326 13.8466L11.0605 7L5.58326 0.153392Z" />
+      </symbol>
+      <symbol id="symbol-chevron-right-20" width="20" height="20" viewBox="0 0 20 20">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M7.97609 0.219116L6.02391 1.78085L12.5992 9.99998L6.02391 18.2191L7.97609 19.7809L15.8008 9.99998L7.97609 0.219116Z" />
+      </symbol>
+      <symbol id="symbol-chevron-up-14" width="14" height="14" viewBox="0 0 14 14">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M0.153393 8.45674L1.24661 9.82326L7 5.22055L12.7534 9.82326L13.8466 8.45674L7 2.97945L0.153393 8.45674Z" />
+      </symbol>
+      <symbol id="symbol-chevron-up-20" width="20" height="20" viewBox="0 0 20 20">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M0.219131 12.0239L1.78087 13.9761L10 7.40077L18.2191 13.9761L19.7809 12.0239L10 4.19921L0.219131 12.0239Z" />
+      </symbol>
+      <symbol id="symbol-close-14" width="14" height="14" viewBox="0 0 14 14">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M7 5.76257L11.2813 1.48129L12.5187 2.71872L8.23743 7.00001L12.5187 11.2813L11.2813 12.5187L7 8.23744L2.71872 12.5187L1.48129 11.2813L5.76256 7.00001L1.48128 2.71873L2.71872 1.48129L7 5.76257Z" />
+      </symbol>
+      <symbol id="symbol-close-20" width="20" height="20" viewBox="0 0 20 20">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M10 8.23224L16.1161 2.11612L17.8839 3.88389L11.7678 10L17.8839 16.1161L16.1161 17.8839L10 11.7678L3.88389 17.8839L2.11612 16.1161L8.23223 10L2.11612 3.88389L3.88388 2.11613L10 8.23224Z" />
+      </symbol>
+      <symbol id="symbol-search-14" width="14" height="14" viewBox="0 0 14 14">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M5.375 0C2.40647 0 0 2.40647 0 5.375C0 8.34353 2.40647 10.75 5.375 10.75C6.54342 10.75 7.62477 10.3772 8.50657 9.74401L12.375 13.6124L13.6124 12.375L9.74401 8.50657C10.3772 7.62477 10.75 6.54342 10.75 5.375C10.75 2.40647 8.34353 0 5.375 0ZM1.75 5.375C1.75 3.37297 3.37297 1.75 5.375 1.75C7.37703 1.75 9 3.37297 9 5.375C9 7.37703 7.37703 9 5.375 9C3.37297 9 1.75 7.37703 1.75 5.375Z" />
+      </symbol>
+      <symbol id="symbol-search-20" width="20" height="20" viewBox="0 0 20 20">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M7.67857 0.125C3.50685 0.125 0.125 3.50685 0.125 7.67857C0.125 11.8503 3.50685 15.2321 7.67857 15.2321C9.35859 15.2321 10.9105 14.6837 12.165 13.756L17.6786 19.2696L19.2696 17.6786L13.756 12.165C14.6837 10.9105 15.2321 9.35859 15.2321 7.67857C15.2321 3.50685 11.8503 0.125 7.67857 0.125ZM2.375 7.67857C2.375 4.74949 4.74949 2.375 7.67857 2.375C10.6077 2.375 12.9821 4.74949 12.9821 7.67857C12.9821 10.6077 10.6077 12.9821 7.67857 12.9821C4.74949 12.9821 2.375 10.6077 2.375 7.67857Z" />
+      </symbol>
+      <symbol id="symbol-chevron-up-down-14" width="14" height="14" viewBox="0 0 14 14">
+            <path d="M11.9605 3.90799L7 0.0498543L2.03954 3.90799L2.96046 5.09201L7 1.95015L11.0395 5.09201L11.9605 3.90799Z" />
+            <path d="M2.03954 10.092L7 13.9501L11.9605 10.092L11.0395 8.90799L7 12.0499L2.96046 8.90799L2.03954 10.092Z" />
+      </symbol>
+      <symbol id="symbol-external-site-14" width="14" height="14" viewBox="0 0 14 14">
+            <path d="M10.1893 2.75H7V1.25H12.75V7H11.25V3.81066L6.53033 8.53033L5.46967 7.46967L10.1893 2.75Z"/>
+            <path d="M3 4.75C2.86193 4.75 2.75 4.86193 2.75 5V11C2.75 11.1381 2.86193 11.25 3 11.25H9C9.13807 11.25 9.25 11.1381 9.25 11V8H10.75V11C10.75 11.9665 9.9665 12.75 9 12.75H3C2.0335 12.75 1.25 11.9665 1.25 11V5C1.25 4.0335 2.0335 3.25 3 3.25H6V4.75H3Z" />
+      </symbol>
+</svg>

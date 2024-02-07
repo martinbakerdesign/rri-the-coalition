@@ -1,0 +1,35 @@
+.collaborators__group {
+    @apply grid grid-cols-5 gap-x-26 items-start w-full relative lg:grid-cols-7;
+}
+.collaborators__group .anchor {
+    @apply absolute left-0 h-1 w-full outline-none pointer-events-none -top-42 md:-top-68 lg:-top-110;
+}
+.collaborators__group:not(:first-child) {
+    @apply mt-26;
+}
+.collaborators__group__letter {
+    @apply col-start-1 col-end-2 text-black uppercase;
+    font-size: 48px;
+    line-height: 1em;
+    font-weight: 400; 
+}
+.collaborators__group__list {
+    @apply col-start-2 col-end-6 w-full text-h4 md:columns-2 md:gap-x-26 lg:col-end-8;
+}
+.collaborator {
+    @apply break-inside-avoid;
+}
+.collaborator:not(:first-child) {
+    @apply mt-6;
+}
+.collaborator a {
+    @apply text-green-700 underline;
+}
+
+.collaborators__jump-links {
+    font-size: 1.125rem;
+    line-height: 1.25rem;
+}
+.collaborators__jump-link {
+    @apply flex-none;
+}

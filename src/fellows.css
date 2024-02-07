@@ -1,0 +1,35 @@
+.fellow-focus:not([hidden]) {
+    @apply flex flex-col;
+}
+.fellow-focus {
+    @apply items-start;
+}
+.fellow-focus .tab__content-select {
+    @apply mb-0;
+}
+.fellow-focus__thumbnail {
+    @apply aspect-square max-w-fellow-thumbnail mb-16 w-full rounded-m overflow-hidden;
+}
+#tab--fellows .category__card__thumb img[src=""],
+.fellow-focus img[src=""] {
+    @apply block;
+    background-image: url("/fellow-placeholder.svg");
+    background-position: center;
+    background-size: cover;
+    font-size: 0;
+}
+.fellow-focus__header {
+    @apply mb-10 w-full md:mb-16;
+}
+.fellow-focus__type {
+    @apply text-h5 uppercase mb-2;
+}
+.fellow-focus__name {
+    @apply text-h3;
+}
+.fellow-focus__header {
+    
+}
+.fellow-focus .tab__content-select[data-toggle] {
+
+}

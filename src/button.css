@@ -1,0 +1,53 @@
+.button {
+    @apply inline-flex font-medium;
+}
+.button-s,
+.button-m {
+    @apply px-6 py-4 rounded-m;
+}
+.button-l {
+    @apply px-10 py-6 rounded-l;
+}
+.button-primary-inverted {
+    @apply bg-white text-green-600 hover:bg-green-100;
+}
+
+[class^="button-"], [class*=" button-"] {
+    @apply inline-flex items-center;
+}
+.button-sm.button-icon {
+    @apply px-4;
+}
+.button-md.button-icon {
+    @apply px-4;
+}
+.button-lg.button-icon {
+    @apply px-6;
+}
+
+.button-sm {
+    @apply text-button-sm px-6 py-4 rounded-s gap-2;
+}
+.button-md {
+    @apply text-button-lg px-6 py-4 rounded-s gap-2;
+}
+.button-lg {
+    @apply text-button-lg px-10 py-6 rounded-s gap-4;
+}
+.button-primary {
+    @apply bg-green-500 text-white fill-white hover:bg-green-600;
+}
+.button-ghost {
+    @apply bg-transparent text-black fill-black p-0 hover:text-green-600 hover:fill-green-600;
+}
+
+.prefix-slot {
+    @apply relative flex-none;
+}
+.prefix-slot svg {
+    @apply absolute -translate-x-1/2 -translate-y-1/2 left-1/2 top-1/2;
+}
+
+.button-md .prefix-slot {
+    @apply w-7 h-7;
+}

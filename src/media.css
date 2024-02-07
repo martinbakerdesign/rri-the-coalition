@@ -1,0 +1,28 @@
+img[src=""] {
+    @apply hidden;
+}
+
+.media-cover {
+    @apply object-cover object-center w-full h-full;
+}
+.media-fill {
+    @apply object-fill object-center w-full h-full;
+}
+.media-fit {
+    @apply object-contain object-center w-full h-full;
+}
+.media-fit-center {
+    @apply object-contain object-center w-full h-full;
+}
+.media-fit-left {
+    @apply object-contain object-left w-full h-full;
+}
+.media-fit-right {
+    @apply object-contain object-right w-full h-full;
+}
+.media-fit-top {
+    @apply object-contain object-top w-full h-full;
+}
+.media-fit-bottom {
+    @apply object-contain object-bottom w-full h-full;
+}

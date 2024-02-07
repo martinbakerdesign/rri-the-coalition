@@ -1,0 +1,10 @@
+[type="checkbox"] {
+    @apply inline-block appearance-none rounded-s border-1 border-green-600 hover:border-green-800 relative w-[1em] h-[1em];
+}
+[type="checkbox"]:before {
+    content: '';
+    @apply absolute left-1/2 top-1/2 rounded-xs bg-green-600  -translate-x-1/2 -translate-y-1/2 w-checkbox-inner h-checkbox-inner scale-0;
+}
+[type="checkbox"]:checked::before {
+    @apply scale-100;
+}
